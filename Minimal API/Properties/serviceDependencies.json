@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "Server=tcp:apipratica.database.windows.net,1433;InitialCatalog=MinimalApi;PersistSecurityInfo=False;UserID=eduardo;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;ConnectionTimeout=30;"
+    }
+  }
+}
